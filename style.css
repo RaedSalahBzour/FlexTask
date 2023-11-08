@@ -6,14 +6,38 @@ body {
   font-family: sans-serif;
   background-color: #dddddd;
 }
+.d-flex {
+  display: flex;
+}
+.f-col {
+  flex-direction: column;
+}
+.horizontal-centering {
+  /*main axis when flex direction is row 
+  cross axis when flex direction is column*/
+  justify-content: center;
+}
+.vertical-centering {
+  /*main axis when flex direction is column  
+  cross axis when flex direction is row*/
+  align-items: center;
+}
+.row-gap {
+  row-gap: 30px;
+}
+.row-gap2 {
+  row-gap: 20px;
+}
+.col-gap {
+  column-gap: 30px;
+}
+
 .container {
   max-width: 1140px;
   height: auto;
   background-color: #ffffff;
   margin: 40px auto;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 h1 {
   margin: 0;
@@ -22,26 +46,23 @@ h1 {
 nav {
   width: 100%;
   background-color: #dddddd;
-  text-align: center;
+  align-items: center;
   padding: 30px 15px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 header {
   width: 100%;
   background-color: #dddddd;
-  text-align: center;
   padding: 130px 15px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .section1 {
   width: 100%;
   background-color: #dddddd;
-  text-align: center;
   padding: 50px 10px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .section1 .content {
-  display: flex;
   width: 100%;
   margin-top: 60px;
 }
@@ -58,12 +79,10 @@ header {
 .section2 {
   width: 100%;
   background-color: #dddddd;
-  text-align: center;
   padding: 50px 10px;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 .section2 .content {
-  display: flex;
   width: 100%;
   margin-top: 60px;
 }
@@ -78,8 +97,6 @@ header {
   background-color: gray;
 }
 .section2 .content .right {
-  display: flex;
-  flex-direction: column;
   width: 50%;
   padding: 0px 10px;
 }
@@ -88,11 +105,10 @@ header {
   font-size: 30px;
   color: #fff;
   background-color: gray;
-  margin-bottom: 20px;
+  /* margin-bottom: 20px; */
 }
 footer {
   width: 100%;
   background-color: #dddddd;
-  text-align: center;
   padding: 50px 10px;
 }
