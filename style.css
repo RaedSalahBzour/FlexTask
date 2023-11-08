@@ -48,19 +48,16 @@ nav {
   background-color: #dddddd;
   align-items: center;
   padding: 30px 15px;
-  /* margin-bottom: 20px; */
 }
 header {
   width: 100%;
   background-color: #dddddd;
   padding: 130px 15px;
-  /* margin-bottom: 20px; */
 }
 .section1 {
   width: 100%;
   background-color: #dddddd;
   padding: 50px 10px;
-  /* margin-bottom: 20px; */
 }
 .section1 .content {
   width: 100%;
@@ -80,7 +77,6 @@ header {
   width: 100%;
   background-color: #dddddd;
   padding: 50px 10px;
-  /* margin-bottom: 20px; */
 }
 .section2 .content {
   width: 100%;
@@ -105,7 +101,6 @@ header {
   font-size: 30px;
   color: #fff;
   background-color: gray;
-  /* margin-bottom: 20px; */
 }
 footer {
   width: 100%;
